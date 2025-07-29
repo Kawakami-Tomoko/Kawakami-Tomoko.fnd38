@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+body {
+  background-image: url(picture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+.direction {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+#result {
+  color:blue;
+  font-family: algerian;
+  font-size: 500%;
+  text-align: center;
+  background-color:aliceblue;
+  width: 420px;
+}
+
+.numbers {
+  display: none;
+  margin-left: 150px;
+  width: 70px;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+#topNumber {
+  color:crimson;
+  font-family: algerian;
+  font-size: 300%;
+  margin-top: 20px;
+}
+
+#happyNumber {
+  color:blue;
+  font-family: algerian;
+  font-size: 300%;
+  margin-top: 35px;
+}
+
+#badNumber {
+  color:black;
+  font-family: algerian;
+  font-size: 300%;
+  margin-top: 20px;
+}
+
+#myNumber {
+  color:green;
+  font-family: algerian;
+  font-size: 300%;
+  margin-top: 5px;
+}
+
+.comment {
+  display: none;
+  background-color: aliceblue;
+}
+
+h3 {
+  margin-left: 20px;
+  width: 420px;
+  padding: 5px;
+}
