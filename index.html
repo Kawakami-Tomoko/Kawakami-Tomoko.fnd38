@@ -3,19 +3,47 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="theme-color" content="#000000">
-  <script type="text/javascript" src="script.js"></script>
+  <title>Numerology ～数秘術～</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>DIG プログラミング基礎へようこそ！</h1>
-  <h2>Mac をお使いの方は、 <font color="blue"> Cmd + Option + J</font><br>
-    Windows/Linux をお使いの方は、 <font color="blue"> Control+Shift+J</font> <br>
-    をクリックして、デベロッパーツールを開いてください。</h2>
-  <h2>下記にユニコーンの画像が表示されていれば成功です！</h2>
-  <img src="https://cdn.dribbble.com/users/1281272/screenshots/4515441/unicorn.gif">
-  <h3>これはアップロードのためのテストです。</h3>
+
+  <h1>Numerology   ～ 数秘術 ～</h1>
+
+  <div>
+    <p class="direction">あなたの幸運ナンバーを調べます。生年月日を8桁で入力してください。</p>
+    <p>例：2025年8月4日 ⇨ 20250804</p> 
+    <input 
+      type="number"
+      id="numberInput"
+      placeholder="yyyymmdd" />
+    <button id="calculateButton">クリック</button>    
+  </div>
+
+  <div class="container">
+    <div>
+      <h2>あなたの幸運ナンバーは</h2>
+      <div id="result"></div>
+    </div>
+
+    <div class="numbers">
+      <div id="topNumber"></div>
+      <div id="happyNumber"></div>
+      <div id="badNumber"></div>
+      <div id="myNumber"></div>
+    </div>
+
+    <div class="comment">
+      <h3>最高の状態です<br>言い換えれば、これ以上は難しいです</h3>
+      <h3>あなたの幸運ナンバーです<br>番地、部屋番号、電話番号、車のナンバー、<br>何かを始める月や日にちは、この数字で！</h3>
+      <h3>この数字は避けましょう</h3>
+      <h3>あなたの本質の数字です</h3>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+
 </body>
 
 </html>
